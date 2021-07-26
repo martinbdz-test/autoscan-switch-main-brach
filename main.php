@@ -1,3 +1,3 @@
 <?php
 $test = $_GET['name'];
-echo $test;
+echo htmlentities($test);
